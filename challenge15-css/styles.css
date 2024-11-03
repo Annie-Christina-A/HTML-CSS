@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calender {
+  width: 420px;
+  height: 570px;
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeded;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.section1 i {
+  width: 27px;
+  padding: 5px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+.section1 p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 27px 18px;
+}
+.section2 p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #2d2d2d;
+}
+p {
+  color: #2d2d2d;
+  font-weight: 500;
+}
+.section2 div i {
+  padding: 0 20px;
+  font-size: 20px;
+  color: #7d7d7d;
+}
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  padding: 0 5px;
+  padding-bottom: 10px;
+}
+.section3 p {
+  text-align: center;
+  padding: 10px;
+  color: #2d2d2d;
+}
+.eighteen {
+  width: 50px;
+  height: 47px;
+  background-color: #dddddd;
+  border-radius: 50%;
+  line-height: 1.5;
+}
+.section3 .nineteen {
+  width: 50px;
+  height: 47px;
+  background-color: #4c5f6b;
+  border-radius: 50%;
+  line-height: 1.5;
+  color: #fff;
+}
+.section3 .light {
+  color: #898989;
+}
+.section4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border-top: 1px solid #ccc;
+}
+.section4 .left {
+  width: 170px;
+  display: flex;
+  justify-content: space-around;
+}
+.section4 .left p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #2d2d2d;
+}
+.section4 .left span {
+  color: #898989;
+}
+.section4 .left i {
+  width: 27px;
+  padding: 5px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+.section4 .focus {
+  width: 90px;
+  padding: 5px 10px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
