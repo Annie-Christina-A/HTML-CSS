@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+}
+nav{
+    background: #000;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    
+}
+nav h3{
+    color: #fff;
+    margin-right: 300px;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    line-height: 70px;
+   margin-right: 100px;
+    
+}
+nav ul li{
+    
+    color: #fff;
+    list-style: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background: #ccc;
+    height: 100%;
+}

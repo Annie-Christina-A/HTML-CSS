@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", system-ui;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #8ac7e4;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 270px;
+  height: 370px;
+  background-color: #fff;
+  margin: 0 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-img {
+  width: 100%;
+  height: 150px;
+   
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+}
+.card-info {
+  width: 100%;
+  height: 220px;
+  padding: 10px;
+}
+.card-info span {
+    font-size: 13px;
+    background-color: #4A8ED9;
+    padding: 5px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 300;
+}
+.card-info h3 {
+    margin: 10px 0;
+}
+.card-info p{
+    font-size: 13px;
+    color: #908E8C;
+}
+.user{
+  margin-top: 38px;
+  display: flex;
+}
+.user .user-img{
+  width: 40px;
+  height: 40px;
+}
+.user-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.user .detail{
+margin-top: 5px;
+  margin-left: 7px;
+  text-align: justify;
+}
+.detail h6{
+  font-size: 13px;
+}
+.detail p{
+  font-size: 12px;
+}
+.clr span{
+  background-color: #DDA85B;
+}
+.end span{
+  background-color: #C13546;
+}
