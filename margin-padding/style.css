@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background: #fcf3cf;
+}
+div{
+    height: 220px;
+    width: 500px;
+    margin: 200px auto;
+    border: 2px solid red ;
+    background: #fff;
+}
+p{
+    height: 50px;
+    padding: 10px 200px;
+    background: red;
+    color: #fff;
+    
+}
+ul{
+    margin-top: 5px;
+    padding: 0 10px;
+    list-style: none;
+}
+li{
+    height: 40px;
+}
