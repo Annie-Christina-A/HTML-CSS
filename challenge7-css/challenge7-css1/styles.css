@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --bg-color-edit:#537BBF;
+  --bg-status1:#C7F6D7;
+  --bg-status2:#FFF2C9;
+  --bg-status3:#FFD7E3;
+  --bg-status4:#CDFCFF;
+  --bg-status5:#C8F7DF;
+  --bg-status6:#FFEAC5;
+  --status-text1:#13503B;
+  --status-text2:#5A4E2A;
+  --status-text3:#823951;
+  --status-text4:#306170;
+  --status-text5:#396152;
+  --status-text6:#88766C;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fafafa;
+  font-family: "Noto Sans", sans-serif;
+}
+.table {
+  width: 55%;
+  margin: 150px auto;
+}
+.tab {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-collapse: collapse;
+  width: 120%;
+  overflow: hidden;
+}
+th {
+  padding: 15px 10px;
+  font-weight: 550;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+td {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 20px 15px 10px;
+  background: #ffffff;
+}
+.status{
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: 700;
+}
+.edit{
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--bg-color-edit);
+}
+.role{
+  font-size: 12px;
+  color: #ada9a6;
+
+}
+.status1{
+  background-color: var(--bg-status1);
+  color: var(--status-text1);
+}
+.status2{
+  background-color: var(--bg-status2);
+  color: var(--status-text2);
+}
+.status3{
+  background-color: var(--bg-status3);
+  color: var(--status-text3);
+}
+.status4{
+  background-color: var(--bg-status4);
+  color: var(--status-text4);
+}
+.header {
+  font-weight: 500;
+  font-size: 14px;
+}
+.profile_name {
+  font-size: 12px;
+  /* display: inline; */
+  /* margin-left: 20px; */
+}
+.sub-title {
+  color: #ada9a6;
+  font-size: 12px;
+  /* display: inline; */
+  /* margin-left: 20px; */
+  
+}
+/* .img{
+    width: 40px;
+    border-radius: 50%;
+    
+} */
+tr td:first-child{
+    padding-right: 70px;
+   
+}
+tr td:nth-child(:last-child){
+  border: none;
+}
+
+.align h3,.align p{
+    display: block;
+    margin-left: 50px;
+}
+.profile{
+  height: 40px;
+  
+}
+.pro-img{
+  width: 40px;
+  height: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  float: left;
+}
+.pro-img img{
+  width: 100%;
+  height: 100%;
+}
